@@ -44,6 +44,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
         environment-file: devtools/conda-envs/test_env.yaml
+        miniforge-version: latest
 
         channels: defaults
 
